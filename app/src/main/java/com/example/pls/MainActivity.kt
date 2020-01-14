@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity(){
         }
 
         changePasswordBtn.setOnClickListener {
-            val intent = Intent(this, ForgotPasswordActivity::class.java)
+            val intent = Intent(this, UpdatePasswordActivity::class.java)
             startActivity(intent)
         }
 

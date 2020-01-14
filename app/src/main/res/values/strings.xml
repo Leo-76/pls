@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">pls</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="log_in">log in</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="sign_up">sign up</string>
+    <string name="change_password">change password</string>
+    <string name="log_out">log out</string>
+    <string name="new_password">new password</string>
+    <string name="back">back</string>
+    <string name="reset_password">reset password</string>
+    <string name="back1">back</string>
+    <string name="back2">back</string>
+    <string name="name">name</string>
+    <string name="phone_number">phone number</string>
+    <string name="save">save</string>
+    <string name="info_page">info page</string>
+    <string name="save_info">save info</string>
+    <string name="button">Button</string>
+    <string name="clear">clear</string>
+</resources>

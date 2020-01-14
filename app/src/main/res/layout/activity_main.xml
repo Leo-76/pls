@@ -7,10 +7,25 @@
     android:layout_height="match_parent"
     android:orientation="vertical" >
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="820dp"
+        android:layout_height="1460dp"
+        android:layout_marginEnd="411dp"
+        android:layout_marginBottom="731dp"
+        android:background="#2C2F33"
+        android:contentDescription="@string/background"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@android:color/darker_gray" />
+
     <Button
         android:id="@+id/logoutBtn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:background="#88DB0505"
         android:text="@string/log_out"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -31,10 +46,21 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="500dp"
+        android:background="#A3FF9800"
         android:text="@string/info_page"
         app:layout_constraintBottom_toTopOf="@+id/changePasswordBtn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="img"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars[0]" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

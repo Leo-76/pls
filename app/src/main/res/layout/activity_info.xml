@@ -54,6 +54,7 @@
             android:id="@+id/saveinfoBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#9E4CAF50"
             android:text="@string/save_info" />
 
         <Button
@@ -66,6 +67,7 @@
             android:id="@+id/clearBtn"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="#88DB0505"
             android:text="@string/clear" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

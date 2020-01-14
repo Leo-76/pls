@@ -19,4 +19,6 @@
     <string name="save_info">save info</string>
     <string name="button">Button</string>
     <string name="clear">clear</string>
+    <string name="recover_password">recover password</string>
+    <string name="background">background</string>
 </resources>
